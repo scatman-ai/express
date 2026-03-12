@@ -85,6 +85,10 @@ app.get('/', function(req, res){
   res.redirect('/login');
 });
 
+app.get('/health', function(req, res){
+  res.send('Hello World');
+});
+
 app.get('/restricted', restrict, function(req, res){
   res.send('Wahoo! restricted area, click to <a href="/logout">logout</a>');
 });
