@@ -1,0 +1,24 @@
+{
+  "kind": "scatman.intake-memory",
+  "version": 1,
+  "repoFullName": "scatman-ai/express",
+  "updatedAt": "2026-03-12T00:01:26.569Z",
+  "repo": {
+    "provider": "github",
+    "repoId": "1179345337",
+    "defaultBranch": "master",
+    "initializedBy": "repo-onboarding"
+  },
+  "memory": {
+    "repoFullName": "scatman-ai/express",
+    "lastBranch": "master",
+    "preferredFastTrackType": null,
+    "recentRunCount": 0,
+    "successfulRunCount": 0,
+    "recentEstimateCount": 0,
+    "lastRunId": null,
+    "lastRunFinishedAt": null,
+    "updatedAt": "2026-03-12T00:01:26.569Z",
+    "sessions": []
+  }
+}
