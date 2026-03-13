@@ -20,6 +20,7 @@ This page contains list of examples using Express.
 - [route-map](./route-map) - Organizing routes using a map
 - [route-middleware](./route-middleware) - Working with route middleware
 - [route-separation](./route-separation) - Organizing routes per each resource
+- [health-check](./health-check) - Health check middleware example
 - [search](./search) - Search API
 - [session](./session) - User sessions
 - [static-files](./static-files) - Serving static files
