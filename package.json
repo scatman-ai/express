@@ -62,6 +62,9 @@
     "vary": "^1.1.2"
   },
   "devDependencies": {
+    "uuid": "^9.0.0",
+    "supertest": "^6.1.6",
+
     "after": "0.8.2",
     "connect-redis": "^8.0.1",
     "cookie-parser": "1.4.7",
@@ -89,6 +92,9 @@
     "lib/"
   ],
   "scripts": {
+    "test": "mocha",
+    "test-ci": "mocha --reporter spec",
+
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "mocha --require test/support/env --reporter spec --check-leaks test/ test/acceptance/",
